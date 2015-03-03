@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="user.pokeranch"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:killAfterRestore="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="user.pokeranch.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainMenu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.main.Credits"
+            android:label="@string/title_activity_credits"
+            android:theme="@style/Credits" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.main.Help"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait"
+            android:theme="@style/Help" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.main.TempDataView"
+            android:label="@string/title_activity_temp_data_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/Help" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.main.NewUser"
+            android:label="@string/new_player"
+            android:screenOrientation="portrait"
+            android:theme="@style/new_dialog" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.area.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.area.CityActivity"
+            android:label="@string/title_activity_city"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.area.OuterActivity"
+            android:label="@string/title_activity_city"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.Beginning"
+            android:label="@string/title_activity_beginning"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.Pokedex"
+            android:label="@string/title_activity_pokedex"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.Profile"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.Bag"
+            android:label="@string/title_activity_bag"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.area.ShopActivity"
+            android:label="@string/title_activity_shop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.Buy"
+            android:label="@string/title_activity_shop_menu"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.Sell"
+            android:label="@string/title_activity_sell"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.area.CombinatoriumActivity"
+            android:label="@string/title_activity_combinatorium"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.area.StadiumActivity"
+            android:label="@string/title_activity_stadium"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.area.ShoreActivity"
+            android:label="@string/title_activity_shore"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.battle.BattleOuterArea"
+            android:label="@string/title_activity_battle_outer_area"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.EggHatch"
+            android:label="@string/title_activity_egg_hatch"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.MonsterParty"
+            android:label="@string/title_activity_monster_party"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.Combine"
+            android:label="@string/title_activity_combine"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.battle.BattleStadium"
+            android:label="@string/title_activity_battle_stadium"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.ItemUse"
+            android:label="@string/title_activity_item_use"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.battle.UseItem"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.menu.ChangeSkillMonster"
+            android:label="@string/title_activity_change_skill_monster"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="user.pokeranch.cv.battle.BattleChangeMonster"
+            android:label="@string/title_activity_battle_change_monster"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+    </application>
+
+</manifest>

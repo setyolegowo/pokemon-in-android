@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PokeranchPK</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_credits">Kredit</string>
+
+    <!-- MAIN MENU -->
+    <string name="build">Main Baru</string>
+    <string name="load">Lanjutkan Permainan</string>
+    <string name="help">Bantuan</string>
+
+    <!-- NEW PLAYER -->
+    <string name="new_player">Pemain Baru</string>
+    <string name="username">Nama Pemain</string>
+    <string name="create">Daftar</string>
+    <string name="cancel">Batal</string>
+    <string name="undefined">Karakter-karakter tidak diterima</string>
+
+    <!-- LOAD PLAYER -->
+    <string name="load_player">Pilih Pemain</string>
+    <string name="ok">Baiklah</string>
+    <string name="empty_player">Tidak ada pemain yang terdaftar</string>
+
+    <!-- CREDITS -->
+    <string name="build_by">DIBUAT OLEH</string>
+    <string name="builder_1">13511025 Lubis Sucipto</string>
+    <string name="builder_2">13511037 Muhammad RIzky W</string>
+    <string name="builder_3">13511051 Andreas Dwi Nugroho</string>
+    <string name="builder_4">13511071 Setyo Legowo</string>
+    <string name="builder_5">13511083 Fawwaz Muhammad</string>
+    <string name="builder_6">13511093 Asep Saepudin</string>
+
+    <!-- CREDITS -->
+    <string name="title_activity_credits">Kredit</string>
+    <string name="hello_world">Halo Dunia!</string>
+
+    <!-- HELP -->
+    <string name="title_activity_help">Bantuan</string>
+    <string name="help_1">Saat permainan PokeRanch dijalankan, pengguna dihadapkan pada main menu yang terdapat tombol-tombol dibawah ini:
+
+Main Baru
+
+Tombol ini digunakan untuk menjadikan pengguna sebagai pemain baru dari permainan PokeRanch. Jika tombol ini ditekan maka muncul Dialog Box untuk memasukkan nama pemain. Klik Sign Up untuk daftar dan cancel untuk membatalkan menjadi pemain baru.
+
+Lanjutkan Permainan
+
+Tombol ini digunakan untuk mengambil pengguna yang telah terdaftar sebelumnya sebagai pemain aktif. Saat tombol ini ditekan akan muncul Dialog Box untuk memilih nama pemain yang telah terdaftar sebelumnya. Setelah nama pemain dipilih maka simpanan terakhir permainan akan di load.
+
+Bantuan
+
+Tombol ini digunakan untuk menampilakan bantuan bermain Pokeranch, sehingga untuk pemain yang bingung cara bermain dapat menekan tombol ini
+
+Ada pengenalan khusus untuk pemain baru atau yang memberikan perintah new pada program ini, yaitu pemain baru akan diberikan semacam user agreement yang menceritakan bahwa pemain baru adalah seorang pendatang ke dunia Poke. Pendatang baru tersebut dapat berteman dengan Poke (monster) dan monster tersebut dapat dipertarungkan dengan monster lain. Lalu diberikan tujuan akhir dari permainan ini yaitu mengumpulkan seluruh monster dan bertarung dengan trainer (pemain di dalam permainan) yang sangat kuat. Setelah itu, jika pemain menekan tombol OK atau Back maka pemain akan tiba-tiba berada di rumah.
+Jika pemain lama, pengantar permainan tidak akan ditampilkan. 
+Setelah itu pemain (baru maupun lama) akan berada di dalam rumah.
+
+Menu-menu yang dapat dipilih di rumah:
+
+Monster
+
+Tombol ini digunakan untuk menampilkan monster yang dimiliki player 
+
+Pokedex
+
+Tombol ini digunakan untuk menampilkan semua monster yang ada di Pokeranch
+
+Tas
+
+Tombol ini digunakan untuk menampilkan semua item yang dimiliki player
+
+Nama Player
+
+Tombol ini digunakan untuk menampilkan status dan info player yang sedang bermain
+
+Tidur
+
+Tombol ini digunakan untuk membuat player tidur sehingga semua monster kembali HP dan PP nya kedalam keadaan maksimal
+
+Simpan
+
+Tombol ini digunakan untuk menyimpang permaian player
+
+Setelah keluar dari rumah player, player dapat bergerak keliling kota. 
+
+Menu di kota sama dengan di rumah tapi tidak ada Simpan dan Tidur
+
+Player dapat membeli item di toko(Shop), bertanding monster dengan bet(Stadium), mengombinasikan monster(Combinatorium), serta menjelajahi dunia luar OuterArea dan Pantai.
+Untuk bisa ke Stadium, Combinatorium, dan dunia luar player harus memiliki monster. Player juga dapat menggunakan sepeda agar lebih cepat.
+
+Di OuterArea ada 10 level lantai, keluar dari kota memasuki level 1, jika berjalan ke ujung akan berindah ke level 2, dst. Disini ada monster-monster yang dapat dilawan dan ditangkap oleh player. Pergerakan monster-monster disini ada yang random, ada yang mengejar player, dan ada yang menjauhi player. Player dapat mendorong batu dan memotong pohon dengan skill push dan cut.
+
+Jika player berpapasan dengan monster akan dilakukan battle dan player diberi 4 pilihan:
+Fight
+
+Tombol ini digunakan untuk melawan monster tersebut
+Monster
+
+Tombol ini digunakan untuk mengganti monster yang akan bettle
+
+Bag
+
+Tombol ini digunakan untuk menampilkan isi tas dan memakai item
+
+Escape
+
+Tombol ini digunakan untuk kabur dari battle
+
+Untuk battle di stadium hampir sama dengan battle di OuterArea, namun bedanya di Stadium player tidak bisa menggunakan item, ataupun escape.
+
+Jika player di pantai player dapat menggunakan monster untuk berenang dan melawan monster jika bertemu dengan monster yang bergerak seperti di OuterArea.</string>
+
+    <!-- BATTLE -->
+
+
+    <!-- TEMP DATA VIEW -->
+    <string name="title_activity_temp_data_view">TempDataView</string>
+    <string name="elements">Elemen</string>
+    <string name="status_effect">Status Efek</string>
+    <string name="item">Item</string>
+    <string name="skill">Skill</string>
+    <string name="monster">Monster</string>
+    <string name="player_monster">Player Monster</string>
+    <string name="title_activity_city">CityActivity</string>
+    <string name="title_activity_beginning">Permulaan</string>
+
+    <!-- BEGINNING -->
+    <string name="user_agreement">Cerita</string>
+    <string name="text_user_agreement">Halo. Sangat senang bertemu denganmu.
+        Selamat datang di dunia PokeRanch.
+        Nama saya Virtue.
+        Oh ya, saya biasanya disebut Poke Professor.</string>
+    <string name="title_activity_pokedex">Pokedex</string>
+    <string name="title_activity_profile">Profil</string>
+    <string name="title_activity_bag">Tas</string>
+
+    <!-- BAG -->
+    <string name="bag_items">Item</string>
+    <string name="bag_medicine">Obat-obatan</string>
+    <string name="bag_tm">Mesin Skill</string>
+    <string name="bag_tools">Alat-alat</string>
+    <string name="title_activity_shop">Toko</string>
+    <string name="title_activity_shop_menu">Menu Toko</string>
+    <string name="title_activity_sell">Jual</string>
+
+    <!-- ACTIVITY NAME -->
+    <string name="title_activity_combinatorium">CombinatoriumActivity</string>
+    <string name="title_activity_stadium">StadiumActivity</string>
+    <string name="title_activity_shore">ShoreActivity</string>
+    <string name="title_activity_battle_outer_area">BattleOuterArea</string>
+    <string name="title_activity_egg_hatch">EggHatch</string>
+    <string name="title_activity_monster_party">MonsterParty</string>
+    <string name="title_activity_combine">Combine</string>
+    <string name="title_activity_battle_stadium">BattleStadium</string>
+    <string name="title_activity_item_use">ItemUse</string>
+    <string name="title_activity_change_skill_monster">ChangeSkillMonster</string>
+    <string name="title_activity_battle_change_monster">BattleChangeMonster</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- DEFAULT WINDOW MARGIN -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="mainMenu_hMargin">0dp</dimen>
+    
+    <!-- MAIN MENU SIZE -->
+    <dimen name="poke_fontsize">60px</dimen>
+    <dimen name="help_sub">30px</dimen>
+    <dimen name="poke_topMargin">68dp</dimen>
+    <dimen name="poke_bottomMargin">60px</dimen>
+    <dimen name="menu_font_size">30dp</dimen>
+
+    <!-- BATTLE -->
+    <dimen name="agree_button_h">80sp</dimen>
+    
+</resources>
